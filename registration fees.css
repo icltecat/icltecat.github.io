@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+} 
+
+.unit{
+font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+font-family: "Montserrat", serif;
+font-style: normal;
+letter-spacing: -1px;
+}
+
+body {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.banner{
+    width: 100%;
+    height: 72vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0)),url(images/index.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    padding: 5px;
+    text-align: center;
+}
+
+.logo{
+	width: 0px;
+	float: left;
+	height: 90px;
+}
+
+.img1{
+	padding-top: 27px;
+    padding-left: 110px;
+    cursor: pointer;
+}
+
+.img2{
+    padding-top: 57px;
+    padding-left: 930px;
+    cursor: pointer;
+}
+
+.img3{
+    padding-top: 37px;
+    padding-left: 1015px;
+    cursor: pointer;
+}
+
+.img4{
+    padding-top: 57px;
+    padding-left: 1138px;
+    cursor: pointer;
+}
+
+.content h2{
+    color: rgba(53, 101, 205, 0.998);
+    margin-top: 1%;
+    margin-bottom: 12px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content p{
+    text-align: justify;
+    font-size: 19px;
+    line-height: 23px;
+    padding-left: 33%;
+}
+
+.content .fee{
+    padding-left: 30%;
+}
+
+.navbar{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 4px;
+    padding: 7px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #084F94;
+    font-size: 12.5px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    margin-left: 4px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.navbar2 {
+    display: none;
+    background-color: #084F94;
+    color: white;
+    position: absolute;
+    top: 34.5%; /* Adjust based on your layout */
+    left: 5px; /* Float to the right */
+    width: 300px; /* Set width to 500px */
+    box-sizing: border-box;
+}
+
+.navbar2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Align items to the left */
+}
+
+.navbar2 ul li {
+    display: block;  /* Ensures items stack vertically */
+    padding: 10px 15px;
+}
+
+.navbar2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12.5px;
+    display: block; /* Make the entire li clickable */
+}
+
+.navbar2 ul li a:hover {
+    background-color: none;
+}
+
+.menu-icon{
+    width: 19px;
+    cursor: pointer;
+}
